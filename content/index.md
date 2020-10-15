@@ -9,5 +9,5 @@ See [[now]] for all (technical and intellectual) topics which are currently on m
 TODO
 
 -  List and describe some of my GitHub projects.
--  Add all content I have in mind :-)
+-  Add all content I have in mind, e.g. 100-10-1 :-)
   
