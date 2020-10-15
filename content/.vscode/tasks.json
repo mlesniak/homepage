@@ -6,7 +6,10 @@
         {
             "label": "publish",
             "type": "shell",
-            "command": "../build.sh",
+            "options": {
+                "cwd": ".."
+            },
+            "command": "build.sh",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
