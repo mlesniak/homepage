@@ -4,3 +4,6 @@ This is the [[digital garden]] of Dr. Michael Lesniak -- a place where I shape, 
 
 See [[now]] for all (technical and intellectual) topics which are currently on my mind.
 
+--- 
+
+TODO List and describe some of my GitHub projects.
