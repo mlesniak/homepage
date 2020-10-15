@@ -12,4 +12,4 @@ Besides writing (technical) articels I'm a software engineer by heart. Over the 
 
 Writing a raytracer is one of the most satisfying projects you can work on as a developer. The necessary math can be understood in an afternoon and the amount of supporting literature is vast. For all mathemtical backgrounds I recommend the book series [_Raytracing in One Weekend_](https://raytracing.github.io). The source code is obviously in the [corresponding repository](https://github.com/mlesniak/go-raytracer); the basic raytracer I wrote supports (among other things) different materials and refractions, e.g. it allows to produce images such as 
 
-![](raytracing.png 200). 
+![](raytracing.png 400). 
