@@ -4,10 +4,6 @@ This is the [[digital garden]] of Dr. Michael Lesniak -- a place where I shape, 
 
 See [[now]] for all (technical and intellectual) topics which are currently on my mind.
 
---- 
+## Projects
 
-TODO
-
--  List and describe some of my GitHub projects.
--  Add all content I have in mind, e.g. 100-10-1 :-)
-  
+Besides writing (technical) articels I'm a software engineer by hear. Over the years I've developed a few projects in various languages which are hosted on GitHub. In the following I'll describe some of them.
