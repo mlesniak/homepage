@@ -43,6 +43,9 @@ func main() {
 	var wg sync.WaitGroup
 	wg.Add(len(dir))
 	for _, file := range dir {
+		if file.IsDir() {
+			continue
+		}
 		go func(file os.FileInfo) {
 			process(file.Name())
 			wg.Done()
