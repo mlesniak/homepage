@@ -44,6 +44,7 @@ func main() {
 	wg.Add(len(dir))
 	for _, file := range dir {
 		if file.IsDir() {
+			wg.Done()
 			continue
 		}
 		go func(file os.FileInfo) {
