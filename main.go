@@ -1,4 +1,3 @@
-// TODO date
 package main
 
 import (
@@ -16,7 +15,7 @@ import (
 )
 
 const rootDirectory = "content"
-const publicDirectory = "public"
+const publicDirectory = "docs"
 const templateDirectory = "templates"
 
 type fileinfo struct {
