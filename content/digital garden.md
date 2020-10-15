@@ -1,5 +1,5 @@
 # Digital garden
-202010151100 #public
+202010151100 #internet #culture
 
 This website follows the latest movement of [_digital gardens_](https://www.google.com/search?q=digital+garden+blog) and this site is my personal part of the Web. Joel Hooks [said](https://joelhooks.com/digital-garden), that the phrase
 

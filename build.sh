@@ -1,5 +1,9 @@
 #!/usr/bin/env sh
 
+git add .
+git commit -m "$(date)"
+git push
+
 if [  -e aperol ]
 then
     aperol
