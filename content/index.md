@@ -17,3 +17,20 @@ Besides writing (technical) articels I'm a software engineer by heart. Over the 
 **Writing a game** is a goal for most developers, even non-gamers: the direct feedback in interactive games combined with complex design and technical challenges makes developing even a simple game a worthwile past-time. I'm a huge fan of [speedruns](https://en.wikipedia.org/wiki/Speedrun), hence writing a game -- let's be honest: more a technical concept -- where your goal is to reach the the target as fast as possible was on my todo list. Hence, the go-based Speedrunner [(source code here)](https://github.com/mlesniak/speedrun) was born. It supports playing with a gamepad, has custom particle, music and sound effects, highscores, fullscreen mode, reproducible levels for challenging your friends and is (in my humble opinion) even in this early stage a lot of fun. But see for yourself:
 
 <div style="text-align: center;"><iframe width="400" height="225" src="https://www.youtube.com/embed/C1_BILCPtJ0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+The [source code repository](https://github.com/mlesniak/port-scanner) with the most GitHub stars (as of 2020-10-15) is one of my first public Go projects, a **replication of the port-scanner** [nmap](https://nmap.org) written in Go. The idea was to learn Go, produce something useful and resemble a (kind of) classic unix tool, including support for port ranges, port to service name mapping, concurrent scans etc:
+
+    > port-scanner -hostname mlesniak.com -parallel 20 -port 75-85 -timeout 1
+    PORT      STATUS  SERVICE
+    75/tcp    closed  
+    76/tcp    closed  deos
+    77/tcp    closed  
+    78/tcp    closed  vettcp
+    79/tcp    closed  finger
+    80/tcp    open    www-http
+    81/tcp    closed  
+    82/tcp    closed  xfer
+    83/tcp    closed  mit-ml-dev
+    84/tcp    closed  ctf
+    85/tcp    closed  mit-ml-dev
+
