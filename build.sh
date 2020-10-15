@@ -4,7 +4,7 @@ git add .
 git commit -m "$(date)"
 git push
 
-if [  -e aperol ]
+if [ -e aperol ]
 then
     aperol
 else
