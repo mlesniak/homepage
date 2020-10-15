@@ -1,6 +1,6 @@
 # Overview
 
-Data and build program to generate content for [mlesniak.com](https://mlesniak.com).
+Quick, hacky and dirty build program to generate content for [mlesniak.com](https://mlesniak.com). This code is highly specialized to my needs; I've probably written much more blog engines than I ever will write blog posts...
 
 ## webserver.sh
 
