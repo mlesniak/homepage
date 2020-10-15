@@ -9,6 +9,14 @@
             "options": {
                 "cwd": ".."
             },
+            "presentation": {
+                "echo": true,
+                "reveal": "never",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
             "command": "build.sh",
             "problemMatcher": [],
             "group": {

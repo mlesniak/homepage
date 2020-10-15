@@ -34,3 +34,32 @@ Quick, hacky and dirty build program to generate content for [mlesniak.com](http
         ssl_certificate     /etc/ssl/local/fullchain.pem;
         ssl_certificate_key /etc/ssl/local/privkey.pem;
     }
+
+## tasks.json
+
+    {
+        "version": "2.0.0",
+        "tasks": [
+            {
+                "label": "publish",
+                "type": "shell",
+                "options": {
+                    "cwd": ".."
+                },
+                "presentation": {
+                    "echo": true,
+                    "reveal": "never",
+                    "focus": false,
+                    "panel": "shared",
+                    "showReuseMessage": true,
+                    "clear": true
+                },
+                "command": "build.sh",
+                "problemMatcher": [],
+                "group": {
+                    "kind": "build",
+                    "isDefault": true
+                }
+            }
+        ]
+    }
