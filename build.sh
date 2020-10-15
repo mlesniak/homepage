@@ -7,3 +7,4 @@ else
     go run main.go
 fi
 
+rsync -rv docs/ server:/root/www
