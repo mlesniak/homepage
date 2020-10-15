@@ -193,7 +193,7 @@ func convertTags(markdown []byte) []byte {
 	linkTags := getTags(markdown)
 
 	for _, tag := range linkTags {
-		link := fmt.Sprintf(`<a href="/tag-%s.html" class="tag">%s </a>`, tag[1:], tag)
+		link := fmt.Sprintf(`<span class="pull-left"><a href="/tag-%s.html" class="tag">%s </a></span>`, tag[1:], tag)
 		markdown = bytes.ReplaceAll(markdown, []byte(tag), []byte(link))
 	}
 
