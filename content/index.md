@@ -6,7 +6,7 @@ See [[now]] for all (technical and intellectual) topics which are currently on m
 
 ## Projects
 
-Besides writing (technical) articels I'm a software engineer by heart, trying to work on a side-project (code or article) or research question all the time, e.g. as shown by my GitHub activity
+Besides writing (technical) articles I'm a software engineer by heart, trying to work on a side-project (code or article) or research question all the time, e.g. as shown by my GitHub activity
 
 ![](github.png 600)
 
