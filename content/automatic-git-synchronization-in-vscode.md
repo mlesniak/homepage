@@ -9,7 +9,6 @@ Visual Studio Code allows to define [build tasks](https://code.visualstudio.com/
     #!/bin/bash
     # File named .update.sh
     
-    echo "Starting automatic git push every 60 seconds"
     while true
     do
         clear
