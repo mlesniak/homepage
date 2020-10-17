@@ -10,4 +10,4 @@ git commit -m "$(date)"
 git push
 
 
-rsync -rv docs/ server:/root/www
+rsync -rv docs/ root@mlesniak.com:/root/www
