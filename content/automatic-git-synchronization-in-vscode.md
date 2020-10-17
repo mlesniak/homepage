@@ -12,12 +12,12 @@ Visual Studio Code allows to define [build tasks](https://code.visualstudio.com/
     do
         clear
         echo "--- $(date) --------------------------------------------------------------"
-        git add . && git commit -m $(date +%s) && git push -u origin
+        git pull && git add . && git commit -m $(date +%s) && git push -u origin
 
         sleep 60
     done
 
-By configuring VSCode's `task.json` to hide the command output and run in the background, continous synchronisation is achieved:
+Note that we perform a `git pull` beforehand, i.e. potential merge conflicts will also be commited, marked with git's typical diff notation. By configuring VSCode's `task.json` to hide the command output and run in the background, continous synchronisation is achieved:
 
     {
         "version": "2.0.0",
