@@ -4,6 +4,11 @@ This is the [[digital garden]] of Dr. Michael Lesniak -- a place where I shape, 
 
 See [[now]] for all (technical and intellectual) topics which are currently on my mind.
 
+## Articles
+
+- [Automatic git synchronization in Visual Studio Code](automatic-git-synchronization-in-vscode.html)
+- _...more to follow_
+
 ## Projects
 
 Besides writing (technical) articles I'm a software engineer by heart, trying to work on a side-project (code or article) or research question all the time, e.g. as shown by my GitHub activity
