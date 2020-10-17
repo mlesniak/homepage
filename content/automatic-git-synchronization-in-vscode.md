@@ -1,5 +1,7 @@
 # Automatic git synchronization in Visual Studio Code
 
+#article 202010171100
+
 I use [Visual Studio Code](https://code.visualstudio.com) in combination with different Markdown plugins to implement a basic version of a [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten)-system. Hence, backing up (and synchronizing) my data becomes more and more important for me. For different reasons I am not able to use Dropbox, but a private git repository on my own server suffices as well for this particular use-case. 
 
 Visual Studio Code allows to define [build tasks](https://code.visualstudio.com/docs/editor/tasks) which can also run in the background. While these are normally used for watcher tasks in frontend build tools like npm, arbitrary scripts can be executed. The following script will periodically commit all new files and changes to existing ones using a [timestamp](https://en.wikipedia.org/wiki/Unix_time) and push them to the git origin.
