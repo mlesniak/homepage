@@ -14,7 +14,8 @@ Visual Studio Code allows to define [build tasks](https://code.visualstudio.com/
     do
         clear
         echo "--- $(date) --------------------------------------------------------------"
-        git pull && git add . && git commit -m $(date +%s) && git push -u origin
+        git pull && git add . && git rebase --continue 
+	    git add . && git commit -m $(date +%s) && git push -u origin
 
         sleep 60
     done
