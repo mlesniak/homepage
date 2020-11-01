@@ -6,5 +6,4 @@ Based on the tradition of [now](https://nownownow.com/about)-pages, these are th
 
 - Reading [Dune](https://www.amazon.de/-/en/Frank-Herbert/dp/0441172717) (as a preparation for the movie)
 - After learning to solve a [Rubik's Cube](https://en.wikipedia.org/wiki/Rubik%27s_Cube), trying to improve my time. 
-- Trying to write a simple chess engine.
-- Adding content to this homepage
+- Learning about procedural generation.
