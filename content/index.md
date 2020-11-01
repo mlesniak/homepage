@@ -7,7 +7,7 @@ See [[now]] for all (technical and intellectual) topics which are currently on m
 ## Articles
 
 - [Automatic git synchronization in Visual Studio Code](automatic-git-synchronization-in-vscode.html)
-- [Project ideas](project-ideas.md)
+- [Project ideas](project-ideas.html)
 - _...more to follow_
 
 ## Projects
