@@ -1,6 +1,6 @@
 # /now
 
-#culture #internet 202010151200
+#culture #internet 202011081514
 
 Based on the tradition of [now](https://nownownow.com/about)-pages, these are the topics I'm currently focusing on
 
